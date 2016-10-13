@@ -1,0 +1,46 @@
+
+SQL*Loader: Release 10.2.0.3.0 - Production on Thu Oct 13 07:10:09 2016
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+Control File:   C:\Users\Freeware Sys\Desktop\Project\Book Bank\Query\Test.ctl
+Data File:      C:\Users\Freeware Sys\Desktop\Project\Book Bank\Query\Title.csv
+  Bad File:     C:\Users\Freeware Sys\Desktop\Project\Book Bank\Query\Title.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table TITLE, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ISBN                                FIRST     *   ,       CHARACTER            
+TITLE                                NEXT     *   ,       CHARACTER            
+ABSTRACT                             NEXT     *   ,       CHARACTER            
+EDITION                              NEXT     *   ,       CHARACTER            
+DATE_PUBLISH                         NEXT     *   ,       CHARACTER            
+CATEGORY_GENRE                       NEXT     *   ,       CHARACTER            
+TITLE_COVER_PIC                      NEXT     *   ,       CHARACTER            
+QUANTITY                             NEXT     *   ,       CHARACTER            
+LANGUAGE                             NEXT     *   ,       CHARACTER            
+PUBLISHER_NAME                       NEXT     *   ,       CHARACTER            
+FINE_PER_DAY                         NEXT     *   ,       CHARACTER            
+RENTAL_PRICE                         NEXT     *   ,       CHARACTER            
+COST                                 NEXT     *   ,       CHARACTER            
+PURCHASE_DATE                        NEXT     *   ,       CHARACTER            
+SELLER_NAME                          NEXT     *   ,       CHARACTER            
+SELLER_ADDRESS                       NEXT     *   ,       CHARACTER            
+SELLER_CONTACT                       NEXT     *   ,       CHARACTER            
+FREQUENCY_ID                         NEXT     *   ,       CHARACTER            
+
+value used for ROWS parameter changed from 64 to 55
+SQL*Loader-601: For INSERT option, table must be empty.  Error on table TITLE
