@@ -135,6 +135,10 @@
                                    <input class="form-control" placeholder="Contact Number" name="Contact"><br></br>
                                    <label>Date Of Birth</label><br>
                                    <input type="Date" name ="Age" ><br></br>
+                                   <label>Security Id Name</label><br>
+                                   <input class="form-control" placeholder="Security Id Name (Aadhar,Voter , Passport Etc) " name="ID_Name"><br></br>
+                                   <label>Security Id Number</label><br>
+                                   <input class="form-control" placeholder="Security id Number" name="ID_Value"><br></br>
                                    <labe><a href=#>Terms and Condition</a> I Accept All The Terms And Condition</labe>
                                    <input type="radio" name="Terms" id="Terms" value="Confirm" ><br></br>
                                    <button type="submit" class="btn btn-default" name ="Submit">Submit Button</button>

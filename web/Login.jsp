@@ -55,7 +55,7 @@
                                    <h3 class="panel-title">Sign In</h3>
                               </div>
                               <div class="panel-body">
-                                   <form role="form">
+                                   <form action="User_DashBoard.jsp" method="Post">
                                         <fieldset>
                                              <div class="form-group">
                                                   <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
@@ -65,6 +65,7 @@
                                              </div>
                                              <div>
                                                   <label>
+                                                       <a href="Register.jsp" align = "Right">Register As Member</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    
                                                        <a href="Forgot.jsp" align = "Left">Forgot Password</a>
                                                   </label>
                                              </div>
@@ -72,27 +73,27 @@
 
 
                                              <!-- Change this to a button or input when using this as a form -->
-                                             <a href="index.html" class="btn btn-lg btn-success btn-block">Login</a>
+                                             <input type="Submit" name="Login" value="Submit">
                                         </fieldset>
                                    </form>
                               </div>
                          </div>
                     </div>
                </div>
-          </div>
+          </div>  </form>
 
-          <!-- jQuery Version 1.11.0 -->
-          <script src="js/jquery-1.11.0.js"></script>
+     <!-- jQuery Version 1.11.0 -->
+     <script src="js/jquery-1.11.0.js"></script>
 
-          <!-- Bootstrap Core JavaScript -->
-          <script src="js/bootstrap.min.js"></script>
+     <!-- Bootstrap Core JavaScript -->
+     <script src="js/bootstrap.min.js"></script>
 
-          <!-- Metis Menu Plugin JavaScript -->
-          <script src="js/metisMenu/metisMenu.min.js"></script>
+     <!-- Metis Menu Plugin JavaScript -->
+     <script src="js/metisMenu/metisMenu.min.js"></script>
 
-          <!-- Custom Theme JavaScript -->
-          <script src="js/sb-admin-2.js"></script>
+     <!-- Custom Theme JavaScript -->
+     <script src="js/sb-admin-2.js"></script>
 
-     </body>
+</body>
 
 </html>

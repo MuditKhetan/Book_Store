@@ -143,7 +143,7 @@ public final class Register_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    <!-- /.navbar-static-side -->\r\n");
       out.write("               </nav>\r\n");
       out.write("               <div id=\"page-wrapper\">\r\n");
-      out.write("                    <form action=\"/MyServlet\" method=\"Post\">\r\n");
+      out.write("                    <form action=\"#\" method=\"Post\">\r\n");
       out.write("                         <div class=\"row\">\r\n");
       out.write("                              <div class=\"col-lg-12\">\r\n");
       out.write("                                   <h1 class=\"page-header\">Register As a Member @Rumour Group</h1>\r\n");
@@ -174,6 +174,10 @@ public final class Register_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                                   <input class=\"form-control\" placeholder=\"Contact Number\" name=\"Contact\"><br></br>\r\n");
       out.write("                                   <label>Date Of Birth</label><br>\r\n");
       out.write("                                   <input type=\"Date\" name =\"Age\" ><br></br>\r\n");
+      out.write("                                   <label>Security Id Name</label><br>\r\n");
+      out.write("                                   <input class=\"form-control\" placeholder=\"Security Id Name (Aadhar,Voter , Passport Etc) \" name=\"ID_Name\"><br></br>\r\n");
+      out.write("                                   <label>Security Id Number</label><br>\r\n");
+      out.write("                                   <input class=\"form-control\" placeholder=\"Security id Number\" name=\"ID_Value\"><br></br>\r\n");
       out.write("                                   <labe><a href=#>Terms and Condition</a> I Accept All The Terms And Condition</labe>\r\n");
       out.write("                                   <input type=\"radio\" name=\"Terms\" id=\"Terms\" value=\"Confirm\" ><br></br>\r\n");
       out.write("                                   <button type=\"submit\" class=\"btn btn-default\" name =\"Submit\">Submit Button</button>\r\n");
