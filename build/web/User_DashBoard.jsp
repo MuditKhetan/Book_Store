@@ -4,6 +4,7 @@
     Created By : Rumours Group
 --%>
 
+<%@page import="javax.jms.Session"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +16,7 @@
           <meta name="description" content="">
           <meta name="author" content="">
 
-          <title>Welcome UserName</title>         <!---I Have To Show UserName Using request.getParameter()---!>
+          <title>Welcome <%=request.getParameter("email")%></title>         <!---I Have To Show UserName Using request.getParameter()---!>
 
           <!-- Bootstrap Core CSS -->
           <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -187,7 +188,7 @@
                <div id="page-wrapper">
                     <div class="row">
                          <div class="col-lg-12">
-                              <h1 class="page-header">User Name</h1><!---I Need To Show The User Name Here--->
+                              <h1 class="page-header"><%=request.getParameter("email")%></h1><!---I Need To Show The User Name Here--->
                          </div>
 
                     </div>
